@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="call_us_free">Call us free</string>
+    <string name="chat_with_us">Chat with us</string>
+    <string name="address_line_1">Udacity</string>
+    <string name="address_line_2">2465 Latham St</string>
+    <string name="address_line_3">Mountain View</string>
+    <string name="address_line_4">CA 94043</string>
+    <string name="telphone">650-555-5555</string>
+    <string name="skype">skype</string>
+
+</resources>

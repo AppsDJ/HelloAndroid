@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appsdj.helloandroid.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/u-perspective"
+        android:adjustViewBounds="true"
+        android:src="@drawable/u_perspective"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_below="@id/u-perspective"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/call_us_free"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/call_us_free" />
+
+        <TextView
+            android:id="@+id/addr_tel"
+            android:layout_below="@id/call_us_free"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telphone" />
+
+        <TextView
+            android:id="@+id/chat_with_us"
+            android:layout_below="@id/addr_tel"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/chat_with_us" />
+
+        <TextView
+            android:id="@+id/skype"
+            android:layout_below="@id/chat_with_us"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skype" />
+
+        <ImageView
+            android:id="@+id/separator_x"
+            android:layout_below="@id/skype"
+            android:src="@drawable/separator_x_300"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/addr_line1"
+            android:layout_below="@id/separator_x"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/address_line_1" />
+        <TextView
+            android:id="@+id/addr_line2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/addr_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address_line_2" />
+        <TextView
+            android:id="@+id/addr_line3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/addr_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address_line_3" />
+        <TextView
+            android:id="@+id/addr_line4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/addr_line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address_line_4" />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
