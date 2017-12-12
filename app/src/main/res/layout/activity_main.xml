@@ -5,13 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context="com.example.appsdj.helloandroid.MainActivity">
 
 
     <ImageView
         android:id="@+id/u-perspective"
         android:adjustViewBounds="true"
-        android:src="@drawable/u_perspective"
+        android:src="@drawable/u_perspective_protrait"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
@@ -22,67 +23,166 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/call_us_free"
-            android:layout_marginTop="40dp"
+        <RelativeLayout
+            android:id="@+id/calls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/phone"
+                android:src="@drawable/phone_25"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/call_us_free"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/call_us_free" />
+
+            <ImageView
+                android:id="@+id/separator_y_call"
+                android:src="@drawable/separator_y_40"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="90dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/phone_call"
+                android:src="@drawable/phone_call_30"
+                android:layout_marginTop="37dp"
+                android:layout_marginRight="31dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/addr_tel"
+                android:layout_below="@id/call_us_free"
+                android:layout_marginLeft="60dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telphone" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/skype_25"
+            android:src="@drawable/skype_25"
+            android:layout_below="@id/calls"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginBottom="2dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text="@string/call_us_free" />
-
-        <TextView
-            android:id="@+id/addr_tel"
-            android:layout_below="@id/call_us_free"
-            android:layout_marginLeft="20dp"
-            android:layout_marginBottom="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/telphone" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/chat_with_us"
-            android:layout_below="@id/addr_tel"
+            android:layout_below="@id/calls"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginBottom="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/chat_with_us" />
 
+        <ImageView
+            android:id="@+id/separator_y_chat"
+            android:src="@drawable/separator_y_40"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:src="@drawable/chat_30"
+            android:layout_marginTop="105dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
         <TextView
             android:id="@+id/skype"
             android:layout_below="@id/chat_with_us"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginBottom="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/skype" />
 
         <ImageView
-            android:id="@+id/separator_x"
+            android:id="@+id/separator_x_1"
             android:layout_below="@id/skype"
-            android:src="@drawable/separator_x_300"
+            android:src="@drawable/separator_x_portrait"
             android:layout_marginTop="10dp"
             android:layout_alignParentRight="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+        <ImageView
+            android:id="@+id/post"
+            android:src="@drawable/post_22"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
         <TextView
             android:id="@+id/addr_line1"
-            android:layout_below="@id/separator_x"
+            android:layout_below="@id/separator_x_1"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginBottom="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/address_line_1" />
+
+        <ImageView
+            android:id="@+id/separator_y_post"
+            android:src="@drawable/separator_y_40"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/map"
+            android:src="@drawable/map_post_35"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
         <TextView
             android:id="@+id/addr_line2"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginBottom="5dp"
             android:layout_below="@id/addr_line1"
             android:layout_width="wrap_content"
@@ -90,7 +190,7 @@
             android:text="@string/address_line_2" />
         <TextView
             android:id="@+id/addr_line3"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginBottom="5dp"
             android:layout_below="@id/addr_line2"
             android:layout_width="wrap_content"
@@ -98,7 +198,7 @@
             android:text="@string/address_line_3" />
         <TextView
             android:id="@+id/addr_line4"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginBottom="5dp"
             android:layout_below="@id/addr_line3"
             android:layout_width="wrap_content"
@@ -106,10 +206,8 @@
             android:text="@string/address_line_4" />
 
 
-
     </RelativeLayout>
 
 
 
 </RelativeLayout>
-
