@@ -2,7 +2,7 @@
 
 The project HelloAndroid is the first project for Google Android Basics Scholarship with Udacity.
 
-The project consists of a simple layout with a combinations of various views to depict a Contact information ‘page’ for Udacity. The project currently serves as a simple experimentation with nesting RelativeLayouts and various views. It remains purposefully inefficient. 
+The project consists of a simple layout with a combination of various views to depict a Contact information ‘page’ for Udacity. The project currently serves as a simple experimentation with nesting RelativeLayouts and various views. It remains purposefully inefficient. 
 
 When built and run the project displays on a mobile device (Nexus 5, in this case) like this:
 
