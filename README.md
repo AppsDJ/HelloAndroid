@@ -6,14 +6,16 @@ The project consists of a simple layout with a combinations of various views to 
 
 When built and run the project displays on a mobile device (Nexus 5, in this case) like this:
 
+```diff
 Portrait
 
 ![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/screenshot_udacity_portrait.png)
+```
 
-
+```diff
 Landscape
 
 ![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/screenshot_udacity_land.png)
-
+```
 
 This project will subsequently be converted to use the newer and more efficient ConstraintLayout.
