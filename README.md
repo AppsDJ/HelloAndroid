@@ -17,5 +17,6 @@ When built and run the project displays on a mobile device (Nexus 5, in this cas
 
 ![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/screenshot_udacity_land.png)
 
-
-This project will subsequently be converted to include LinearLayouts (for practice purposes) and finally to use the newer and more efficient ConstraintLayout.
+### On Layouts
+Currently the portrait orientation uses an outer LinearLayout with inner nested RelativeLayouts, whereas the landscape orientation uses only nested RelativeLayouts. This is intentional for practice purposes only and not for efficiency.
+This project will subsequently be converted to use the newer and more efficient ConstraintLayout.
