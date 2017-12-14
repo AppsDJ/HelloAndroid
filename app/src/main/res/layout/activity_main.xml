@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#fff"
+    android:background="@color/whiteBackground"
     tools:context="com.example.appsdj.helloandroid.MainActivity">
 
 
@@ -34,18 +34,16 @@
                 android:id="@+id/phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="2dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="30dp"
-                android:src="@drawable/phone_25" />
+                android:layout_marginLeft="@dimen/left_img_marginLeft"
+                android:layout_marginTop="@dimen/left_img_1_marginTop"
+                android:src="@drawable/phone" />
 
             <TextView
                 android:id="@+id/call_us_free"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="2dp"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginLeft="@dimen/left_text_marginLeft"
+                android:layout_marginTop="@dimen/left_text_1_marginTop"
                 android:text="@string/call_us_free"
                 android:textStyle="bold" />
 
@@ -54,29 +52,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginBottom="2dp"
-                android:layout_marginRight="90dp"
-                android:layout_marginTop="32dp"
-                android:src="@drawable/separator_y_40" />
+                android:layout_marginRight="@dimen/separator_y_marginRight"
+                android:layout_marginTop="@dimen/separator_y1_marginTop"
+                android:src="@drawable/separator_y" />
 
             <ImageButton
                 android:id="@+id/phone_call"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginBottom="2dp"
-                android:layout_marginRight="31dp"
-                android:layout_marginTop="37dp"
-                android:background="#fff"
-                android:src="@drawable/phone_call_30" />
+                android:layout_marginRight="@dimen/right_button_marginRight"
+                android:layout_marginTop="@dimen/right_button_1_marginTop"
+                android:background="@color/whiteBackground"
+                android:src="@drawable/phone_call" />
 
             <TextView
                 android:id="@+id/addr_tel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/call_us_free"
-                android:layout_marginBottom="5dp"
-                android:layout_marginLeft="60dp"
+                android:layout_marginLeft="@dimen/left_text_marginLeft"
+                android:layout_marginTop="@dimen/left_text_below_marginTop"
                 android:text="@string/telphone" />
 
         </RelativeLayout>
@@ -87,50 +83,46 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/calls"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:src="@drawable/skype_25" />
+            android:layout_marginLeft="@dimen/left_img_marginLeft"
+            android:layout_marginTop="@dimen/left_img_2_marginTop"
+            android:src="@drawable/skype" />
 
         <TextView
             android:id="@+id/chat_with_us"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/calls"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/left_text_marginLeft"
+            android:layout_marginTop="@dimen/left_text_2_marginTop"
             android:text="@string/chat_with_us"
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/separator_y_chat"
+            android:id="@+id/separator_y2_chat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="2dp"
-            android:layout_marginRight="90dp"
-            android:layout_marginTop="100dp"
-            android:src="@drawable/separator_y_40" />
+            android:layout_marginRight="@dimen/separator_y_marginRight"
+            android:layout_marginTop="@dimen/separator_y2_marginTop"
+            android:src="@drawable/separator_y" />
 
         <ImageButton
             android:id="@+id/chat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="2dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="105dp"
-            android:background="#fff"
-            android:src="@drawable/chat_30" />
+            android:layout_marginRight="@dimen/right_button_marginRight"
+            android:layout_marginTop="@dimen/right_button_2_marginTop"
+            android:background="@color/whiteBackground"
+            android:src="@drawable/chat" />
 
         <TextView
             android:id="@+id/skype"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/chat_with_us"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="@dimen/left_text_marginLeft"
+            android:layout_marginTop="@dimen/left_text_below_marginTop"
             android:text="@string/skype" />
 
         <ImageView
@@ -139,26 +131,24 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_below="@id/skype"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/separator_x_marginTop"
             android:src="@drawable/separator_x_portrait" />
 
         <ImageView
             android:id="@+id/post"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="180dp"
-            android:src="@drawable/post_22" />
+            android:layout_marginLeft="@dimen/left_img_marginLeft"
+            android:layout_marginTop="@dimen/left_img_3_marginTop"
+            android:src="@drawable/post" />
 
         <TextView
             android:id="@+id/addr_line1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/separator_x_1"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/left_text_marginLeft"
+            android:layout_marginTop="@dimen/left_text_3_marginTop"
             android:text="@string/address_line_1"
             android:textStyle="bold" />
 
@@ -167,29 +157,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="2dp"
-            android:layout_marginRight="90dp"
-            android:layout_marginTop="200dp"
-            android:src="@drawable/separator_y_40" />
+            android:layout_marginRight="@dimen/separator_y_marginRight"
+            android:layout_marginTop="@dimen/separator_y3_marginTop"
+            android:src="@drawable/separator_y" />
 
         <ImageButton
             android:id="@+id/map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginBottom="2dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="200dp"
-            android:background="#fff"
-            android:src="@drawable/map_post_35" />
+            android:layout_marginRight="@dimen/right_button_marginRight"
+            android:layout_marginTop="@dimen/right_button_3_marginTop"
+            android:background="@color/whiteBackground"
+            android:src="@drawable/map_post" />
 
         <TextView
             android:id="@+id/addr_line2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/addr_line1"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="@dimen/left_text_marginLeft"
+            android:layout_marginTop="@dimen/left_text_below_marginTop"
             android:text="@string/address_line_2" />
 
         <TextView
@@ -197,8 +185,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/addr_line2"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="@dimen/left_text_marginLeft"
+            android:layout_marginTop="@dimen/left_text_below_marginTop"
             android:text="@string/address_line_3" />
 
         <TextView
@@ -206,8 +194,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/addr_line3"
-            android:layout_marginBottom="5dp"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="@dimen/left_text_marginLeft"
+            android:layout_marginTop="@dimen/left_text_below_marginTop"
             android:text="@string/address_line_4" />
 
 

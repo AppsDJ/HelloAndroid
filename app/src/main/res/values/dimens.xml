@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="left_img_marginLeft">20dp</dimen>
+    <dimen name="left_img_1_marginTop">25dp</dimen>
+    <dimen name="left_img_2_marginTop">20dp</dimen>
+    <dimen name="left_img_3_marginTop">170dp</dimen>
+
+    <dimen name="left_text_marginLeft">60dp</dimen>
+    <dimen name="left_text_1_marginTop">25dp</dimen>
+    <dimen name="left_text_2_marginTop">20dp</dimen>
+    <dimen name="left_text_3_marginTop">20dp</dimen>
+    <dimen name="left_text_below_marginTop">5dp</dimen>
+
+    <dimen name="right_button_marginRight">30dp</dimen>
+    <dimen name="right_button_1_marginTop">32dp</dimen>
+    <dimen name="right_button_2_marginTop">95dp</dimen>
+    <dimen name="right_button_3_marginTop">197dp</dimen>
+
+    <dimen name="separator_y_marginRight">90dp</dimen>
+    <dimen name="separator_y1_marginTop">25dp</dimen>
+    <dimen name="separator_y2_marginTop">90dp</dimen>
+    <dimen name="separator_y3_marginTop">195dp</dimen>
+
+    <dimen name="separator_x_marginTop">20dp</dimen>
+
+
+</resources>
