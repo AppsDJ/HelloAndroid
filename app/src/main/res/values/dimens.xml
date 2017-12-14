@@ -24,5 +24,29 @@
 
     <dimen name="separator_x_marginTop">20dp</dimen>
 
+    <dimen name="left_img_marginLeft_land">220dp</dimen>
+    <dimen name="left_img_1_marginTop_land">30dp</dimen>
+    <dimen name="left_img_2_marginTop_land">20dp</dimen>
+    <dimen name="left_img_3_marginTop_land">180dp</dimen>
+
+    <dimen name="left_text_marginLeft_land">260dp</dimen>
+    <dimen name="left_text_marginBottom_land">5dp</dimen>
+    <dimen name="left_text_1_marginTop_land">30dp</dimen>
+    <dimen name="left_text_2_marginTop_land">20dp</dimen>
+    <dimen name="left_text_3_marginTop_land">20dp</dimen>
+    <dimen name="left_text_below_marginTop_land">5dp</dimen>
+
+    <dimen name="right_button_marginRight_land">35dp</dimen>
+    <dimen name="right_button_1_marginTop_land">37dp</dimen>
+    <dimen name="right_button_2_marginTop_land">105dp</dimen>
+    <dimen name="right_button_3_marginTop_land">200dp</dimen>
+
+    <dimen name="separator_y_marginRight_land">100dp</dimen>
+    <dimen name="separator_y1_marginTop_land">30dp</dimen>
+    <dimen name="separator_y2_marginTop_land">95dp</dimen>
+    <dimen name="separator_y3_marginTop_land">200dp</dimen>
+
+    <dimen name="separator_x_marginTop_land">15dp</dimen>
+
 
 </resources>
