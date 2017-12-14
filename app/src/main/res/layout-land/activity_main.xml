@@ -62,7 +62,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="@dimen/right_button_marginRight_land"
                 android:layout_marginTop="@dimen/right_button_1_marginTop_land"
-                android:background="#fff"
+                android:background="@color/whiteBackground"
                 android:src="@drawable/phone_call" />
 
             <TextView
