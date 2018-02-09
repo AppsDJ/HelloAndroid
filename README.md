@@ -9,10 +9,12 @@ When built and run the project displays on a mobile device (Nexus 5, in this cas
 ### Portrait
 (Click image if you are having difficulty to differentiate app background from README.md background)
 
+
 ![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/screenshot_udacity_portrait.png)
 
 ### Landscape
 (Click image if you are having difficulty to differentiate app background from README.md background)
+
 
 ![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/screenshot_udacity_land.png)
 
