@@ -8,9 +8,6 @@ When built and run the project displays on a mobile device (Nexus 5, in this cas
 
 ### Screenshots
 
-![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/udacity_portrait.png)
-![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/udacity_land.png)
-
 
 ### On Layouts
 Currently the portrait orientation uses an outer LinearLayout with inner nested RelativeLayouts, whereas the landscape orientation uses only nested RelativeLayouts. This is intentional for practice purposes only and not for efficiency.
