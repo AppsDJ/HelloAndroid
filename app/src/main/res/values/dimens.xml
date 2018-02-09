@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="left_img_marginLeft">20dp</dimen>
+    <dimen name="left_img_marginLeft">25dp</dimen>
     <dimen name="left_img_1_marginTop">25dp</dimen>
     <dimen name="left_img_2_marginTop">20dp</dimen>
     <dimen name="left_img_3_marginTop">170dp</dimen>

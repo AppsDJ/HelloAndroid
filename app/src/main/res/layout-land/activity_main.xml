@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/left_img_marginLeft_land"
                 android:layout_marginTop="@dimen/left_img_1_marginTop_land"
-                android:src="@drawable/phone" />
+                android:src="@drawable/phone_gray_20" />
 
             <TextView
                 android:id="@+id/call_us_free"
@@ -84,7 +84,7 @@
             android:layout_below="@id/calls"
             android:layout_marginLeft="@dimen/left_img_marginLeft_land"
             android:layout_marginTop="@dimen/left_img_2_marginTop_land"
-            android:src="@drawable/skype" />
+            android:src="@drawable/skype_gray" />
 
         <TextView
             android:id="@+id/chat_with_us"
@@ -140,7 +140,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_img_marginLeft_land"
             android:layout_marginTop="180dp"
-            android:src="@drawable/post" />
+            android:src="@drawable/post_gray" />
 
         <TextView
             android:id="@+id/addr_line1"
