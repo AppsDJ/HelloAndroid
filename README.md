@@ -6,17 +6,11 @@ The project consists of a simple layout with a combination of various views to d
 
 When built and run the project displays on a mobile device (Nexus 5, in this case) like this:
 
-### Portrait
-(Click image if you are having difficulty to differentiate app background from README.md background)
+### Screenshots
 
+![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/udacity_portrait.png)
+![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/udacity_land.png)
 
-![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/screenshot_udacity_portrait.png)
-
-### Landscape
-(Click image if you are having difficulty to differentiate app background from README.md background)
-
-
-![alt text](https://github.com/AppsDJ/HelloAndroid/blob/master/screenshot_udacity_land.png)
 
 ### On Layouts
 Currently the portrait orientation uses an outer LinearLayout with inner nested RelativeLayouts, whereas the landscape orientation uses only nested RelativeLayouts. This is intentional for practice purposes only and not for efficiency.
